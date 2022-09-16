@@ -1,15 +1,17 @@
+import java.util.Scanner;
+
 public class Program1 {
     public static void main(String[] args) {
-        int a,b,c,d;
-        System.out.println();
+        String a,b,c,d;
+        System.out.print("Enter name =");
         Scanner sc=new Scanner(System.in);
-        System.out.print("principle=");
-        a=sc.nextInt();
-        System.out.print("rate=");
-        b=sc.nextInt();
-        System.out.print("time=");
-        c=sc.nextInt();
-        d=(a*b*c)/100;
-        System.out.println("the interest is"+ d);
+        a=sc.nextLine();
+        System.out.print("roll=");
+        b=sc.nextLine();
+        System.out.print("adress=");
+        c=sc.nextLine();
+        System.out.print("phone=");
+        d=sc.nextLine();
+        System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
     }
 }
